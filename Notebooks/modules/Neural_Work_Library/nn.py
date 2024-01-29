@@ -137,11 +137,13 @@ class MemeClassConv2dV2(nn.Module):
     
 def predict(model, image_tensor, device, class_names):
     tensor = image_tensor.to(device)
-    output = model.forward(tensor).argmax().cpu().item()
+    model.eval()    
+    with torch.no_grad():
+        output = model.forward(tensor).argmax().cpu().item()
     return class_names[output]
 
 def predict_softmax(model, image_tensor, device):
-    # Predict using the model
+
     model.eval()
     with torch.no_grad():
         image_tensor = image_tensor.to(device)
