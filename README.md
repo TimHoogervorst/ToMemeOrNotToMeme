@@ -1,6 +1,5 @@
 # Neural Network for Cat vs Meme Classification
 
-Overview
 Welcome to the Neural Network for Cat vs Meme Classification project! This project focuses on utilizing neural networks, particularly convolutional networks, to classify images as either a cat or a meme. The dataset consists of scraped images from Reddit, acquired using the PRAW API wrapper.
 
 Project Structure
