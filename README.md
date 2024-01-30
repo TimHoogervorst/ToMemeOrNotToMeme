@@ -32,8 +32,9 @@ We attempted transfer learning with the model on new datasets, namely House vs N
 Limited significance was observed with P values around .10, indicating a slight difference but not a significant one.
 The small dataset sizes (300 for House/Nature and 50 for Pizza vs Salads) may contribute to the limited effectiveness of transfer learning.
 We concluded that for successful transfer learning, the original database should cover a broader range of images beyond cats and memes.
-Feel free to explore the project files and experiment with different configurations. Your feedback and contributions are welcome!
 
 ![image](https://github.com/TimHoogervorst/ToMemeOrNotToMeme/assets/40735264/5ebcc810-fc5d-4e9e-8be9-97eb17233b72)
+
+Feel free to explore the project files and experiment with different configurations. Your feedback and contributions are welcome!
 
 https://docs.google.com/presentation/d/1VWFdj7JjXIUs3UY3Gc7YB5YCggB6GJBW0YI_SE8DVYY/edit#slide=id.g2b4303d2f43_0_6
