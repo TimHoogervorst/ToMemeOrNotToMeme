@@ -28,7 +28,6 @@ L2 regularization is applied to limit validation loss during training. This help
 
 Transfer Learning
 
-House vs Nature and Pizza vs Salads
 We attempted transfer learning with the model on new datasets, namely House vs Nature and Pizza vs Salads.
 Limited significance was observed with P values around .10, indicating a slight difference but not a significant one.
 The small dataset sizes (300 for House/Nature and 50 for Pizza vs Salads) may contribute to the limited effectiveness of transfer learning.
