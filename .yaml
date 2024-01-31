@@ -1,0 +1,17 @@
+data:
+  main: '/Notebooks/main.ipynb'
+  RedditScraper: '/Notebooks/RedditScraper.ipynb'
+  Graphs: '/Notebooks/Graphs.ipynb'
+  transfer_learning: 'Notebooks/transfer_learning.ipynb'
+
+models:
+  efficientnet_b0: '/models/efficient_b0_v2.pkl'
+  MemeClassConv2d_v1: '/models/MemeClassConv2d_v1.pkl'
+  MemeClassifier_v2: '/models/MemeClassifier_v2.pkl'
+
+modules:
+  Neural_Network_library: '/Notebooks/modules/Neural_Work_library/nn.py'
+  Preprocess: '/Notebooks/modules/Preprocess_validation/preprocess.py'
+  Validation: '/Notebooks/modules/Preprocess_validation/Image_validizer.ipynb'
+
+
